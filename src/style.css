@@ -1,0 +1,42 @@
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.elemento {
+  display: none;
+  width: 300px;
+  margin: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.elemento img {
+  width: 100%;
+  height: auto;
+}
+
+.texto {
+  padding: 10px;
+}
+
+.texto h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.texto p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.texto a {
+  color: blue;
+  text-decoration: none;
+}
+
+.texto a:hover {
+  text-decoration: underline;
+}
